@@ -14,8 +14,10 @@ a:hover {
 
 .header ul {
 	list-style-type: none;
-	margin-top: 25px;
+	margin-bottom: 0px;
 	text-align: right;
+	padding-bottom: 20px;
+	padding-top: 10px;
 	font-family: Arial, sans-serif;
 	font-size: 13px;
 }
@@ -23,6 +25,30 @@ a:hover {
 .header ul li {
 	margin-right: 20px;
 	display: inline;
+}
+
+.apps img {
+	vertical-align: middle;
+}
+
+.apps img:last-child {
+	display: none;
+}
+
+.apps:hover img:first-child {
+	display: none;
+}
+
+.apps:hover img:last-child {
+	display: inline-block;
+}
+
+.signin {
+	background-color: #1E88E5;
+	border-radius: 5%;
+	padding: 8px 13px 8px 13px;
+	font-weight: bold;
+	color: white;
 }
 
 .image {
